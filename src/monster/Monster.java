@@ -1,4 +1,7 @@
 package monster;
 
-public class Monster {
+public interface Monster {
+    String getNaam();
+    String getEffect();
+    void verslaan();
 }
